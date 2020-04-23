@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body{
+	font-family: poppins;
+}
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 6opx;
+  width: 100%;
+  background-color: #203345;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.menu{
+  
+  float: right;
+  
+  padding: 21px 0;
+  display: none;
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 60px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+.flex {
+	padding :5px 0px;
+	display: flex;
+	float:right;
+	align-items: center;
+	
+	justify-content: space-between;
+}
+input#search-box {
+	width: 100%;
+	padding: 8px 20px 8px 8px;
+	font-size: 1rem;
+	background-color: #445463;
+	color: #eff1f3;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+}
+
+
+#search-box:hover {
+	background-color: rgb(105, 105, 105);
+}
+
+::placeholder {
+	color: rgb(231, 228, 228);
+}
+
+.search-bar {
+	box-shadow: 0 2px 15px 5px rgba(0, 0, 0, 0.4);
+	margin-left: 16px;
+	border-radius:10px;
+	background-color: #445463;
+}
+
+.user
+{
+	margin-left:10px;
+}
+
+.header-right a:hover {
+  box-shadow: inset 0px 2px 0px 0px #2a83f2;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url('assets/font/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: jose;
+    src: url('assets/font/JosefinSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: jose-bold;
+    src: url('assets/font/JosefinSans-Bold.ttf');
+}
+
