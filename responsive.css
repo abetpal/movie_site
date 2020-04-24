@@ -1,0 +1,177 @@
+@media screen and (max-width: 670px) {
+	.top{
+        height: 30%;
+    }
+    #title #one{
+        display: none;
+    }
+    #first{
+        margin-top: 0px;
+        display: block;
+        margin-left: 15px;
+        width: 100%;
+       
+        font-size: 15px;
+    }
+	
+	.option button{
+		display:none;
+	}
+	
+    #second{
+        display: none;
+    }
+    #title #three{
+        display: none;
+    }
+	.language-container{
+        display:flex;
+        flex-direction: column;
+    }
+    .language-container>a{
+        height : 50px;
+        margin-top: 15px;  
+        width: 100%;  
+        border-radius: 10px;
+        box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.4);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        transition: 0.3s ease-in-out;   
+    }
+    
+    .language-container>a p{
+        display: block;
+        padding-top: 12px;
+        padding-left: 30px;
+        width: 100%;
+        height: 52px;
+        border-radius: 10px;
+        background-color: #203345;;
+    }
+	.rated-moviename-container #one{
+        display: none;
+    }
+    .rated-moviename-container #three{
+        width: 25%;
+        background-image: url('assets/icon/plus.png');
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: center;
+        margin-right: 1%;
+    }
+    .rated-moviename-container #two #rated-title{
+        margin-top: 15px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .rated-moviename-container #two #time{
+        display: none;
+    }
+	 .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container>div {
+        color: #afb8bd;
+        margin: 0px auto;
+        transition: 0.2s ease-in-out;
+    }
+}
+
+
+
+
+@media screen and (min-width: 670px) {
+	 .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-container>div {
+        color: #afb8bd;
+        margin-left: 8px;
+        margin-right: 8px;
+        transition: 0.2s ease-in-out;
+    }
+	 .rated-moviename-container #one {
+        width: 10%;
+        background-image: url('assets/icon/play.png');
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: center;
+    }
+
+    .rated-moviename-container #two {
+        width: 90%;
+    }
+
+    .rated-moviename-container #two #rated-title{
+        margin-top: 15px;
+        font-size: 28px;
+    }
+
+    .rated-moviename-container #two #time{
+        margin-top: 2px;
+        color : #899398;
+        font-size: 14px;
+    }
+
+    .rated-moviename-container #three {
+        width: 10%;
+        background-image: url('assets/icon/plus.png');
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: center;
+        margin-right: 1%;
+    }
+	.language-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .language-container>a {
+        height: 130px;
+        width: 130px;
+        margin-left : 10px;
+        margin-right : 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-color: #203345;
+        box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.4);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        transition: 0.3s ease-in-out;
+    }
+    .language-container>a p{
+        display: none;
+    }
+	.top{
+        height: 65%;
+    }
+    
+    #title #one {
+        width: 10%;
+        background-image: url('assets/icon/play.png');
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: center;
+        
+    }
+
+    #second{
+        margin-top: 2px;
+        color : #899398;
+        font-size: 14px;
+    }
+    
+    #title #three {
+        width: 10%;
+        background-image: url('assets/icon/plus.png');
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: center;
+        margin-right: 1%;
+    }
+}

@@ -1,3 +1,4 @@
+/* header */
 * {
   box-sizing: border-box;
 }
@@ -8,7 +9,8 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 body{
-	font-family: poppins;
+	 background-color: #152535;
+    font-family: poppins;
 }
 .container {
   max-width: 100%;
@@ -97,7 +99,7 @@ input#search-box {
 .header-right a:hover {
   box-shadow: inset 0px 2px 0px 0px #2a83f2;
 }
-
+/*font */
 @font-face {
     font-family: poppins;
     src: url('assets/font/Poppins-SemiBold.ttf');
@@ -112,4 +114,389 @@ input#search-box {
     font-family: jose-bold;
     src: url('assets/font/JosefinSans-Bold.ttf');
 }
+
+/* body */
+.abh{
+	height:60px;
+}
+.top {
+    
+	
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#money {
+    height: 97%;
+    width: 22.5%;
+    border-radius: 5px;
+    background-color: #203345;
+    
+    transition: 0.3s ease-in-out;
+    background-image: url('assets/movie/mh_vertical.jpg');    
+    background-size:     cover;              
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#money:hover {
+    box-shadow: 0 2px 15px 5px rgba(0, 0, 0, 0.4);
+}
+button,
+button::after {
+	transition: all 0.3s;
+}
+
+button {
+	outline: none;
+	border: 2px solid white;
+	border-radius: 4px;
+	font-size: 22px;
+	padding: 4px 32px;
+	background: transparent;
+	color: rgb(192, 191, 191);
+	cursor: pointer;
+	position: relative;
+}
+
+button::before,
+button::after {
+  background: rgb(255, 255, 255);
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #00050a;
+}
+
+.btn-1::after {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.btn-1:hover:after {
+  height: 100%;
+}
+
+.watch-btn {
+	background-color: #2684fe;
+	border: 2px solid #2684fe;
+	color:white;
+	outline: none;
+	padding: 4px 20px;
+}
+.option{
+	width :100%;
+	position: absolute;
+    bottom:-55px;
+	display: flex;
+    justify-content: space-between;
+}
+.watch-btn:hover {
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	color:rgb(0, 0, 0);
+}
+
+.watchlist-btn {
+	padding: 4px 20px;
+}
+
+.watch-play-icon {
+	margin-right: 16px;
+	font-size: 24px;
+}
+
+.watchlist-plus-icon {
+	margin-right: 16px;
+	font-size: 28px;
+}
+#play {
+    position: relative;
+    height: 100%;
+    width: 75%;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(21, 37, 53, 0.3), rgba(21, 37, 53, 1)), url('assets/movie/moneyheist.jpg');
+    background-size:     cover;              
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#playbutton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playbutton>img {
+    
+    height: 20%;
+    width: auto;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+}
+
+#play:hover #playbutton>img {
+    
+    filter: invert(0);
+}
+
+#title {
+    position: absolute;
+    bottom: -10px;
+    color: white;
+    
+    height: 20%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#title #two {
+    width: 90%;
+}
+
+#first{
+    margin-top: 15px;
+    font-size: 28px;
+    font-family: jose-bold;
+}
+
+
+ 
+.bollywood {
+    color: white;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.bollywood-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bollywood-container>a {
+    height: 150px;
+    width: 250px;
+    margin-top:20px;
+    margin-left: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #203345;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.4);
+    background-size:     cover;              
+    background-repeat:   no-repeat;
+    background-position: center center;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+
+.bollywood-container>a:hover {
+    transform: scale(1.2);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bollywood-container>a #block1 {
+    display: none;
+}
+
+.bollywood-container>a:hover #block1 {
+    display: block;
+    margin-top: 150px;
+    padding: 10px;
+    background-color: #203345;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#block2 {
+    height: 35px;
+    width: 100%;
+    
+    margin-top: 2px;
+    margin-bottom: 10px;
+    display: flex;
+    
+    align-items: center;
+}
+
+#UA {
+    float: right;
+    border: 1px solid white;
+    font-size: 8px;
+    width: 30px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+
+.language {
+    color: white;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+ 
+
+
+.language-container>a:hover {
+    box-shadow: 0 2px 15px 5px rgba(0, 0, 0, 0.8);
+}
+
+
+.rated {
+    color: white;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+
+.rated-container {
+    margin-top: 15px;
+    width: 100%;
+    height: 400px;
+    background-color: #203345;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.rated-container:hover .rated-poster {
+    filter: saturate(1.5);
+}
+
+.rated-poster {
+    background-image: url('assets/movie/avenger.jpg');
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    width: 100%;
+    height: 75%;
+    transition: 0.2s ease-in-out;
+    background-size:     cover;              
+    background-repeat:   no-repeat;
+    background-position: center center;
+    
+}
+
+.rated-moviename-container {
+    
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.genre {
+    color: white;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.genre-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.genre-container>div {
+    
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 190px;
+    width: 270px;
+    background-color: #203345;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.genre-movie {
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    width: 100%;
+    height: 75%;
+    transition: 0.3s ease-in-out;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.genre-container>div:hover .genre-movie {
+    background-size: 110% auto;
+}
+
+.genre-moviename {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 25%;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+  
+}
+
+
+.see {
+    background-color: #203345;
+    width: 85%;
+    height: 50px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #afb8bd;
+    font-size: 20px;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.see:hover {
+    box-shadow: 0 10px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/* footer */
+#social{
+    padding-top: 18px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social>div{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer {
+    background-color: #203345;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.footer-container>div:hover {
+    opacity: 0.6;
+}
+.footer-container>a:hover {
+    opacity: 0.6;
+}
+
 
