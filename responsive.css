@@ -1,3 +1,21 @@
+@media screen and (max-width: 1050px) {
+	.option button{
+		display:none;
+	}
+	.inf div{
+		display:none;
+	}
+	.header-right a{
+		display:none;
+	}
+	.flex div{
+		display:none;
+	}
+	.option1 button
+	{
+		display:none;
+	}
+}
 @media screen and (max-width: 670px) {
 	.top{
         height: 30%;
