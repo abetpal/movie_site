@@ -69,8 +69,8 @@ input#search-box {
 }
 
 
-.dropdown-content a:hover {background-color: #778287;}
-.dropdown-content .search1:hover {background-color: #778287;}
+.dropdown-content a:hover {background-color: #778287;box-shadow: inset 0px 2px 0px 0px #2a83f2;}
+.dropdown-content .search1:hover {background-color: #778287;box-shadow: inset 0px 2px 0px 0px #2a83f2;}
 
 
 .menu:hover .dropdown-content {display: block;}
